@@ -1,4 +1,6 @@
 export default {
+  STRIPE_KEY: "YOUR_STRIPE_PUBLIC_KEY",
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-uploads-71",
